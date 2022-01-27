@@ -5,6 +5,7 @@
 package tls
 
 import (
+	"GGHttpClient/uTLS/cpu"
 	"container/list"
 	"crypto"
 	"crypto/rand"
@@ -19,8 +20,6 @@ import (
 	"strings"
 	"sync"
 	"time"
-
-	"github.com/refraction-networking/utls/cpu"
 )
 
 const (
